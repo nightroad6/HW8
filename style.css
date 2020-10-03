@@ -31,7 +31,7 @@ li {
 .nav-icon1, .nav-icon2, .nav-icon3, .nav-icon4, .nav-icon5, .nav-icon6 {
     width: 25%;
     height: 25%;
-    padding: 30%;   
+    padding: 35%;   
 }
 .header {
     width: 100%;
@@ -99,12 +99,17 @@ li {
 .img-select {
     width: 40px;
     height: 40px;
-    margin-right: 2%;
+}
+form {
+    margin-left: -5%;
 }
 .select {
     width: 55px;
     height: 40px;
     margin-top: 1%;
+    outline: none;
+    border: none;
+    background: none;
 }
 .header-block-1, .header-block-2 {
     background-color: #F5F5F7;
@@ -120,11 +125,13 @@ li {
 
 .title-number {
     font-size: 4em;
+    font-weight: 800;
     padding: 0 0 10% 10%;
 }
 .header-text-block-1, .header-text-block-2 {
     font-size: 1.1em;
     margin: 10%;
+    font-weight: bold;
 }
 .container {
     display: flex;
@@ -132,13 +139,14 @@ li {
     width: 99%;
     margin-left: 5%;
     height: 40%;
+    position: relative;
 }
 .lang-block {
     width: 52%;
     height: 80px;
 }
 .lang-block-2 {
-    width: 85%;
+    width: 82%;
     height: 80px;
     background-color: #F5F5F7;
     border-radius: 14px;
@@ -174,7 +182,7 @@ li {
     color: #FFFFFF
 }
 .img-lang-side {
-    margin-bottom: 10px;
+    margin: 10px;
     width: 40px;
     height: 40px;
 }
@@ -197,6 +205,11 @@ li {
 .titles-nav-courses {
     font-size: 1.2em;
     margin-right: 4%;
+    color: grey;
+}
+.titles-nav-courses:first-child {
+    color: #000000;
+    font-weight: bold;
 }
 .block-app, .block-app1, .block-app2, .block-app3, .block-app4  {
     width: 100%;
@@ -289,6 +302,10 @@ li {
     font-size: 1em;
     align-content: space-between;
     margin-right: 5%;
+    color: grey;
+}
+.link-stat:first-child {
+    color: #000000;
 }
 .weekly-select-stat {
     background: #F5F5F7;
