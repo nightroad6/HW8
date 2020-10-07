@@ -9,6 +9,7 @@ body {
     max-height: 900px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .container-main {
     max-width: 1400px;
