@@ -11,7 +11,7 @@ body {
     flex-wrap: wrap;
 }
 .container-main {
-    max-width: 1200px;
+    max-width: 1400px;
     margin-left: 40px;
 }
 .navigation {
@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     border-radius: 24px;
     align-items: center;
-    width: 6%;
+    width: 7%;
 }
 li {
     list-style: none;
@@ -74,7 +74,7 @@ li {
     margin-left: 12%;
 }
 .header-search {
-    width: 60%;
+    width: 45%;
     height: 20%;
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +83,7 @@ li {
     display: block;
     background-color: #F5F5F7;
     border: none;
-    width: 40%;
+    width: 65%;
     height: 40px;
     background-image: url(img/seacrh.png);
     background-repeat: no-repeat;
@@ -117,14 +117,14 @@ form {
 }
 .header-block-1, .header-block-2 {
     background-color: #F5F5F7;
-    width: 32%;
+    width: 47%;
     height: 96px;
     font-size: 16px;
     border-radius: 14px;
     display: flex;
 }
 .header-block-1 {
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 .title-number {
@@ -145,7 +145,7 @@ form {
     max-height: 700px;
 }
 .lang-block {
-    width: 52%;
+    width: 59%;
     height: 80px;
 }
 .lang-block-2 {
@@ -191,7 +191,7 @@ form {
 }
 .courses-block {
     margin-top: 2%;
-    width: 50%;
+    width: 56%;
     height: 40%;
     display: flex;
     flex-wrap: wrap;
@@ -297,7 +297,8 @@ form {
 .title-stat-link {
     display: inline-flex;
     flex-wrap: wrap;
-    max-width: 430px;
+    max-width: 540px;
+    width: 100%;
 }
 .link-stat {
     font-size: 1em;
@@ -319,10 +320,11 @@ form {
     padding: 1%;
     border: none;
     margin-left: auto;
+    margin-right: 45px;
 }
 .img-graphics-stat {
     margin-top: 5%;
-    width: 449.59px;
+    width: 100%;
     height: 266.15px;
 }
 .footer-block-stat {
@@ -330,7 +332,7 @@ form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     height: 160px;
     background: #F5F5F7;
     padding: 5% 5% 1% 5%;
